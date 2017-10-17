@@ -1,0 +1,25 @@
+/*清除默认样式代码*/
+*{box-sizing: border-box;}
+body,html{font-family: "Microsoft YaHei","微软雅黑"}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {margin: 0;padding: 0;}
+table {border-collapse: collapse;border-spacing:0;}
+li {list-style: none outside none;}
+fieldset, img {border: 0 none; padding:0}
+input, textarea,lable,button{outline-style: none;resize:none;outline:none;tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-appearance: none;border:0 none;}
+/*select option {direction: rtl;}selec 下拉设置右对齐*/
+a {text-decoration: none;bblr:expression(this.onFocus=this.blur());/*IE使用*/outline-style:none;/*FF使用*/-webkit-tap-highlight-color:rgba(255,0,0,0);color:#323232}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+input[type="radio"] {display: none;}
+input[type="checkbox"] {display: none;}
+em,i{font-style:normal;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{ clear:both; overflow:hidden;}
+.hidden{ display:none}
+.bgf{background: #fff;}
+#nobg{ background-image:none;}
+#nobottomborder{ border:none 0;}
+html{font-size:0}
+body{font-family:"Helvetica Neue",Helvetica,STHeiTi,sans-serif, "Microsoft YaHei","微软雅黑"; color:#323232; font-size:0.3rem; background:#f3f3f3;}
+
+/*以上是主体部分样式*/

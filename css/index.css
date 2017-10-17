@@ -1,0 +1,450 @@
+.index-categories{
+	width:7.5rem;
+	height:0.8rem;
+	margin:0 auto;
+	padding-left:0.15rem;
+	overflow: hidden;
+}
+.index-categories>ul{
+	width:12rem;
+	height:0.8rem;
+}
+.index-categories>ul>li{
+	float:left;
+	width:1.2rem;
+	height:0.8rem;
+}
+.index-categories>ul>li>a{
+	display:block;
+	width:1.2rem;
+	height:0.8rem;
+	font-size:0.22rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+/***********************************以上是头部分部分样式**************************/
+.warp{ 
+	width:7.5rem; 
+	margin:0 auto;
+	padding-bottom:1rem;
+}
+.index-carouselfigure,.index-carouselfigure img{
+	width:7.5rem;
+	height:3rem;
+}
+.index-jiugongge{
+	width:7.5rem;
+	height:3.3rem;
+	padding:0.15rem 0.2rem;
+}
+.index-jiugongge>ul{
+	width:7.1rem;
+	height:3rem;
+}
+.index-jiugongge>ul>li{
+	float:left;
+	width:1.42rem;
+	height:1.4rem;
+}
+.index-jiugongge>ul>li>a{
+	display:block;
+	width:100%;
+	height:100%;
+	padding-top:0.24rem;
+}
+.index-jiugongge>ul>li>a>img{
+	display:block;
+	margin:0 auto;
+	width:0.7rem;
+	height:0.7rem;
+}
+.index-jiugongge>ul>li>a>p{
+	width:100%;
+	text-align: center;
+	font-size:0.22rem;
+	margin-top:0.1rem;
+}
+/************************************************以上是九宫格部分样式*************************************************/
+.index-notice{
+	width:7.5rem;
+	height:0.6rem;
+	margin:0.2rem 0;
+	padding:0.08rem 0.2rem;
+}
+.index-notice-left{
+	width:1.37rem;
+	height:0.44rem;
+	border-right:1px solid #f3f3f3;
+}
+.index-notice-left>img{
+	width:0.44rem;
+	height:0.44rem;
+	float:left;
+	margin:0 0.1rem 0 0.2rem;
+}
+.index-notice-left>span{
+	float:left;
+	width:0.45rem;
+	height:0.44rem;
+	font-size:0.2rem;
+	color:#418efe;
+	line-height:0.22rem;
+}
+.index-notice-right{
+	float:left;
+	width:5.7rem;
+	height:0.44rem;
+	padding-left:0.2rem;
+	font-size:0.2rem;
+}
+.index-notice-right .swiper-slide{
+	line-height:0.44rem
+}
+.index-banner{
+	width:7.5rem;
+	height:2.1rem;
+	margin-bottom:0.2rem;
+}
+.index-banner>img{
+	width:7.5rem;
+	height:2.1rem;
+}
+.index-salesdetails{
+	width:7.5rem;
+	height:0.9rem;
+	padding:0.1rem;
+}
+.index-salesdetails>p{
+	float:left;
+	height:100%;
+	color:#e22836;
+}
+.index-salesdetails>p>b{
+	display:block;
+	width:100%;
+	text-align: center;
+	font-size:0.28rem;
+}
+.index-salesdetails>p>span{
+	font-size:0.22rem;
+	display:block;
+	margin-top:0.05rem;
+	width:100%;
+	text-align: center;
+}
+.index-salesdetails>p:nth-child(1){
+	width:2.16rem;
+}
+.index-salesdetails>p:nth-child(2){
+	width:3.07rem;
+	border-left:2px solid #ccc;
+	border-right:2px solid #ccc;
+}
+.index-salesdetails>p:nth-child(3){
+	width:1.83rem;
+}
+/*******************************************************以上是销售详情部分样式************************************************/
+.index-duobao{
+	width:7.5rem;
+	height:4.5rem;
+}
+.index-duobao-title{
+	width:7.5rem;
+	height:0.6rem;
+	position: relative;
+}
+.index-duobao-title>p{
+	position: absolute;
+	height:0.4rem;
+	top:0.1rem;
+	right:0.93rem;
+	width:2.5rem;
+}
+.index-duobao-title>p>span{
+	float:left;
+	width:0.4rem;
+	height:0.4rem;
+	border-radius: 4px;
+	background:url("../img/djs.png") center no-repeat;
+	line-height:0.4rem;
+	text-align: center;
+	color:#fff;
+	font-size:0.2rem;
+}
+.index-duobao-title>p>i{
+	float:left;
+	width:0.3rem;
+	height:0.4rem;
+	line-height:0.4rem;
+	text-align: center;
+	color:#df1120;
+	font-weight: 800;
+}
+.index-duobao-title>a,.index-duobao-title>a>img{
+	width:7.5rem;
+	height:0.6rem;
+	display:block;
+}
+.index-duobao>dl img{
+	width:7.5rem;
+	height:3rem;
+	display: block;
+}
+.index-duobao>dl>dt>a{
+	width:7.5rem;
+	height:3rem;
+	display:block;
+	position:relative;
+}
+.index-duobao>dl>dt>a>p{
+	width:7.5rem;
+	height:0.8rem;
+	position:absolute;
+	left:0;
+	top:1.1rem;
+	background: rgba(73,73,73,.4);
+}
+.index-duobao>dl>dd{
+	width:7.5rem;
+	height:0.6rem;
+	padding:0 0.2rem;
+}
+.index-duobao>dl>dd>p,.index-duobao>dl>dd>a{
+	line-height:0.9rem;
+	color:#e22836;
+	font-size:0.28rem;
+}
+.index-duobao>dl>dd>p>span{
+	font-size:0.22rem;
+	margin-left:0.1rem;
+		color:#363636;
+}
+/***************************************************以上是0元夺宝部分活动样式*****************************************************/
+.index-duanzu{
+	width:7.5rem;
+	height:3rem;
+}
+.index-duanzu dl dt{
+	width:7.5rem;
+	height:1.5rem;
+	padding:0.2rem 0.2rem 0.2rem 0.1rem;
+}
+.index-duanzu dl dt p{
+	float:left;
+	width:1.1rem;
+	height:1.1rem;
+	margin-left:0.1rem;
+}
+.index-duanzu dl dt p img{
+	width:1.1rem;
+	height:1.1rem;
+	display:block;
+}
+.index-duanzu>dl>dd{
+	width:7.5rem;
+	height:0.6rem;
+	padding:0 0.2rem;
+}
+.index-duanzu>dl>dd>p,.index-duanzu>dl>dd>a{
+	line-height:0.9rem;
+	color:#e22836;
+	font-size:0.28rem;
+}
+.index-duanzu>dl>dd>p>span{
+	font-size:0.22rem;
+	margin-left:0.1rem;
+	color:#363636;
+}
+/***********************************************以上0元短租部分样式******************************************************/
+.index-zhigou{
+	width:7.5rem;
+	height:4.6rem;
+}
+.index-zhigou>ul{
+	width:7.5rem;
+	height:3.1rem;
+	padding:0.2rem 0.3rem 0 0.3rem;
+}
+.index-zhigou>ul>li{
+	width:2.1rem;
+	height:2.9rem;
+	float:left;
+}
+.index-zhigou>ul>li:nth-child(2){
+	margin:0 0.3rem;
+}
+.index-zhigou>ul>li>a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.index-zhigou>ul>li>a>img{
+	width:2.1rem;
+	height:2.1rem;
+	display:block;
+}
+.index-zhigou>ul>li>a>p{
+	font-size:0.2rem;
+	overflow:hidden; 
+	margin-top:0.15rem;
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2; 
+}
+.index-zhigou-footer{
+	width:7.5rem;
+	height:0.6rem;
+	padding:0 0.2rem;
+}
+.index-zhigou-footer>p,.index-zhigou-footer>a{
+	line-height:0.9rem;
+	color:#e22836;
+	font-size:0.28rem;
+}
+.index-zhigou-footer>p>span{
+	font-size:0.22rem;
+	margin-left:0.1rem;
+	color:#363636;
+}
+/***********************************************以上一元直购部分样式******************************************************/
+.index-branch{
+	width:7.1rem;
+	height:2.8rem;
+	padding:0.2rem 0;
+	margin: 0 auto;
+}
+.index-branch img{
+	width:7.1rem;
+	height:2.4rem;
+}
+/************************************************以上品牌分类部分样式*********************************************/
+.index-muying{
+	width:7.5rem;
+	height:auto;
+	padding:0 0.2rem;
+}
+.index-muying-title{
+	width:100%;
+	height:0.6rem;
+	line-height:0.6rem;
+	font-size:0.22rem;
+	font-weight: 500;
+	color:#333;
+	margin:0.1rem 0;
+}
+.index-muying-title i{
+	font-size:0.36rem;
+	margin:0 0.1rem;
+}
+.index-muying>ul{
+	width:7.2rem;
+	overflow:hidden;
+	height:auto;
+}
+.index-muying>ul>li{
+	float:left;
+	position: relative;
+	background: #fff;
+	height:4.35rem;
+	width:3.5rem;
+	margin:0 0.1rem 0.1rem 0;
+}
+.index-muying>ul>li>a{
+	width:100%;
+	height:100%;
+	display:block;
+}
+.index-muying>ul>li>a>img{
+	width:3.3rem;
+	height:2.9rem;
+	display:block;
+	margin:0.1rem;
+}
+.index-muying-hot{
+	position: absolute;
+	top:0.1rem;
+	right:0.2rem;
+	width:0.66rem;
+	height:0.9rem;
+}
+.index-muying>ul>li>a>p:nth-child(2){
+	width:100%;
+	line-height:0.28rem;
+	font-size:0.22rem;
+	color:#282828;
+	margin-top:0.1rem;
+	padding:0 0.1rem;
+}
+.index-muying>ul>li>a>p:nth-child(3){
+	width:100%;
+	padding:0 0.1rem;
+	height:0.6rem;
+}
+.index-muying>ul>li>a>p:nth-child(3) span{
+	float:left;
+	width:1.75rem;
+	font-size:0.22rem;
+}
+.index-muying>ul>li>a>p:nth-child(3) span em{
+	color:#df1120;
+	display:block;
+}
+.index-muying>ul>li>a>p:nth-child(3) span i{
+	display:block;
+}
+.index-muying>ul>li>a>p:nth-child(3) b{
+	float:right;
+	width:1.5rem;
+	height:0.4rem;
+	text-align: center;
+	line-height:0.4rem;
+	color:#fff;
+	background: #df1120;
+	font-size:0.22rem;
+	border-radius: 4px;
+	margin-top:0.1rem;
+}
+/***************************************************以上是母婴特惠专区部分样式****************************************************/
+footer{
+	width:7.5rem;
+	position: fixed;
+	left:0;
+	bottom:0;
+	height:1rem;
+	z-index: 999;
+}
+footer>span{
+	float:left;
+	width:20%;
+	height:100%;
+	color:#282828;
+}
+footer i{
+	display:block;
+	width:100%;
+	text-align: center;
+	font-size:0.4rem !important;
+	font-weight: 600;
+	padding-top:0.1rem;
+}
+footer b{
+	width:100%;
+	text-align: center;
+	font-size:0.22rem;
+	display:block;
+	padding-top:0.05rem;
+	font-weight: 100;
+}
+footer>span:nth-child(3) em{
+	width:1rem;
+	height:1rem;
+	display:block;
+	background:#f3f3f3;
+	margin:0 auto;
+	color:#eebb45;
+	border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	top:-0.1rem;
+}
