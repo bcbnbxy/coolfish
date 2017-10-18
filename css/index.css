@@ -375,6 +375,10 @@
 	color:#282828;
 	margin-top:0.1rem;
 	padding:0 0.1rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
 }
 .index-muying>ul>li>a>p:nth-child(3){
 	width:100%;
@@ -410,6 +414,7 @@ footer{
 	width:7.5rem;
 	position: fixed;
 	left:0;
+	right:0;
 	bottom:0;
 	height:1rem;
 	z-index: 999;
