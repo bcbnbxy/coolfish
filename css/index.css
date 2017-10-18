@@ -413,6 +413,7 @@ footer{
 	bottom:0;
 	height:1rem;
 	z-index: 999;
+	margin:0 auto;
 }
 footer>span{
 	float:left;
